@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>YSEE - Product</title>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <a href="connect.html">Connect us</a>
+            <a href="about.html">About us</a>
+            <a href="catalogue.html">Catalogue</a>
+        </nav>
+        
+        <a href="index.html">
+            <img src="img/6012317271210004243_121.jpg" alt="YSEE logo">
+        </a>
+
+    </header>
+
+    <main class="product-page">
+
+        <!-- Back -->
+        <a href="catalogue.html" class="back">
+            ← العودة
+        </a>
+
+
+        <div class="product-details">
+
+            <!-- LEFT SIDE -->
+            <div class="product-info">
+
+                <h1 id="productName">Product</h1>
+
+                <p class="price" id="productPrice">0 د.ج</p>
+
+
+                <!-- SIZE -->
+                <h3>Select size and color</h3>
+
+                <div class="sizes">
+
+                    <button onclick="selectSize(this)">XL</button>
+
+                    <button onclick="selectSize(this)">L</button>
+
+                    <button onclick="selectSize(this)">M</button>
+
+                    <button onclick="selectSize(this)">S</button>
+
+                </div>
+
+
+                <!-- COLORS -->
+                <div class="colors">
+
+                    <button class="color red"
+                            onclick="selectColor(this)">
+                    </button>
+
+                    <button class="color beige"
+                            onclick="selectColor(this)">
+                    </button>
+
+                    <button class="color black"
+                            onclick="selectColor(this)">
+                    </button>
+
+                    <button class="color green"
+                            onclick="selectColor(this)">
+                    </button>
+
+                </div>
+
+
+                <!-- ADD TO CART -->
+                <button class="add-cart" onclick="addToCart()">
+                    Add to cart
+                </button>
+
+
+                <!-- DESCRIPTION -->
+                <div class="description">
+
+                    <p id="productDescription">
+                        منتج أنيق من مجموعة YSEE،
+                        بتصميم عصري وخامة فاخرة تناسب مختلف المناسبات.
+                    </p>
+
+                </div>
+
+
+                <!-- DELIVERY -->
+                <div class="delivery">
+
+                    <h3>تفاصيل التوصيل:</h3>
+
+                    <p>
+                        التوصيل للمنزل • إرجاع خلال 7 أيام • الدفع عند الاستلام
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT SIDE -->
+            <div class="product-image">
+
+                <img id="productImage"
+                     src=""
+                     alt="Product">
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
